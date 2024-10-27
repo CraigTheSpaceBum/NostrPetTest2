@@ -1,6 +1,6 @@
 // Public key (npub) of the user to fetch data for
 const npub = "npub1826v365he5ty69lk3xgvzqrwy8587vdfrxnsz0k09khzustf8r7s6j7t95";
-const relayUrl = "ws://relay.damus.io";
+const relayUrl = "wss://relay.damus.io";
 
 // Decode npub to hex public key using nip19
 function decodeNpub(npub) {
