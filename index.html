@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostr Client - Dark Twitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="profile-header">
+            <img id="banner" src="" alt="Banner" class="banner">
+            <div class="profile-info">
+                <img id="profile-picture" src="" alt="Profile Picture" class="profile-picture">
+                <h2 id="username">Username</h2>
+                <p id="bio">User bio goes here...</p>
+            </div>
+        </header>
+        <main class="feed">
+            <h3>User Feed</h3>
+            <div id="posts" class="posts">
+                <!-- Posts will be dynamically inserted here -->
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/nostr-tools@0.0.23/dist/nostr-tools.min.js"></script>
+    <script src="script.js">
+    </script>
+</body>
+</html>
